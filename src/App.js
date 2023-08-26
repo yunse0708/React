@@ -7,6 +7,7 @@ function App() {
     "여자 코트 추천",
     "남성 운동화 추천",
     "남여공용 나이키",
+    "안녕안녕"
   ]);
   let [따봉, 따봉변경] = useState(0);
 
@@ -43,11 +44,15 @@ function App() {
 
       <div className="list">
         <h4>{글제목[1]}</h4>
-        <p>3월 17일 발행</p>
+        <p>3월 24일 발행</p>
       </div>
       <div className="list">
         <h4>{글제목[2]}</h4>
         <p>4월 24일 발행</p>
+      </div>
+      <div className="list">
+        <h4>{글제목[3]}</h4>
+        <p>4월 27일 발행</p>
       </div>
     </div>
   );
